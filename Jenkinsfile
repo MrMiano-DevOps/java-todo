@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ('clone') {
             steps {
-                sh 'git clone https://github.com/MrMiano-DevOps/java-todo.git'
+                sh 'git clone https://github.com/MrMiano-DevOps/echody'
                 
                 echo "cloning complete"
             }
