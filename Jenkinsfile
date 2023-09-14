@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        gradle "Gradle-8.3"
+        gradle "Gradle 8.3"
     }
     stages {
         stage ('clone') {
