@@ -14,7 +14,7 @@ pipeline {
         
         stage ('build') {
             steps {
-                gradle build
+                sh 'gradle build'
                 
                 echo "build complete"
             }
@@ -22,7 +22,7 @@ pipeline {
         
         stage ('test') {
             steps {
-                gradle test
+                sh 'gradle test'
                 
                 echo "testing complete"
             }
